@@ -83,6 +83,7 @@ Replace `<your_mongodb_connection_string>` with your MongoDB URI.
 ### Frontend
 
 - React
+- Tailwindcss
 - Axios (for API requests)
 
 ### Backend
