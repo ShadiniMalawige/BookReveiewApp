@@ -7,7 +7,7 @@ const ReviewCard = ({ review, onClick }) => {
       className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 h-full cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-xl"
       onClick={onClick}
     >
-      <h2 className="text-xl font-bold text-gray-900 mb-2">
+      <h2 className="text-xl font-bold text-gray-900 mb-2 truncate">
         {review?.bookTitle}
       </h2>
       <p className="text-gray-600 mb-4">{review?.author}</p>
@@ -21,7 +21,10 @@ const ReviewCard = ({ review, onClick }) => {
           />
         ))}
       </div>
-      <p className="text-gray-700">{review?.reviewText}</p>
+      <p className="text-gray-700 ">{review?.reviewText}</p>
+      <p className="text-gray-700">
+        {review?.createdAt?.toString()?.split("T")[0]}
+      </p>
     </div>
   );
 };

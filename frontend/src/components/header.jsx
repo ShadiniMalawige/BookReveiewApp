@@ -29,7 +29,7 @@ export default function Header() {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <a
-            href="#"
+            href="/"
             className="text-lg font-bold text-gray-900 hover:text-indigo-600 transition-all"
           >
             Home
@@ -42,7 +42,7 @@ export default function Header() {
             Books
           </a>
           <a
-            href="#"
+            href="/reviews"
             className="text-lg font-bold text-gray-900 hover:text-indigo-600 transition-all"
           >
             Reviews
@@ -92,7 +92,7 @@ export default function Header() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <a
-                  href="#"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Home
@@ -104,7 +104,7 @@ export default function Header() {
                   Books
                 </a>
                 <a
-                  href="#"
+                  href="/reviews"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Reviews
